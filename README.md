@@ -9,7 +9,7 @@ gomobile bind -target=android
 
 ## publish hello.aar to private maven repository
 <code>
-cd step_1_build_and_publish_hello_aar  
+cd step_1_build_and_publish_hello_aar   
 gradle publish  
 </code>  
 
