@@ -11,7 +11,7 @@ gomobile bind -target=android
 <code>
 cd step_1_build_and_publish_hello_aar  
 gradle publish  
-</code>
+</code>  
 ![](./images/cmd_gradle_publish.png)
 
 ## Finally, you can see a new package on repository
