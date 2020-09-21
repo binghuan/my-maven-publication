@@ -24,3 +24,7 @@ gradle publish
 ![](./images/Slide3.png)
 ![](./images/Slide4.png)
 ![](./images/call_hello_aar_on_android.png)
+
+## Reference: 
+<https://docs.gitlab.com/ee/user/packages/maven_repository/>  
+<https://juejin.im/post/6844903926551019527>
