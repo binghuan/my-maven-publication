@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        google()//in newer versions of Android Studio
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+    }
+}
+android {
+    compileSdkVersion 30
+}
+publishing {
+    publications {
+        mobile_lib(MavenPublication) {
+            groupId 'com.bh.android'
+            version '1.0.6'
+            artifactId 'mobile_lib'
+            artifact("hello.aar")
+        }
+    }
+    repositories {
+        maven {
+            url 'http://localhost:8081/repository/maven-releases/'
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
+        }
+    }
+}

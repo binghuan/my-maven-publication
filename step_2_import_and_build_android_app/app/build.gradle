@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    flatDir {
+        dirs '.'
+    }
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "org.golang.example.android"
+        minSdkVersion 15
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.bh.android:mobile_lib:1.0.6'
+
+}
