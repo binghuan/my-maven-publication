@@ -18,12 +18,17 @@ gradle publish
 ## Finally, you can see a new package on repository
 ![](./images/sonatype_nexus_repository_manager.png)
 
+## Sample to get tag as version 
+![](./images/getversionname.png)
+
+
 ## Illustration: 
 ![](./images/Slide1.png)
 ![](./images/Slide2.png)
 ![](./images/Slide3.png)
+
 ![](./images/Slide4.png)
-![](./images/call_hello_aar_on_android.png)
+![](./images/call_hello_aar_on_android.png) 
 
 ## Reference: 
 <https://docs.gitlab.com/ee/user/packages/maven_repository/>  
