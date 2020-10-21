@@ -7,6 +7,7 @@ package hello
 
 import "fmt"
 
+// Greetings Say Hello to You
 func Greetings(name string) string {
 	return fmt.Sprintf("Hello, %s!", name)
 }

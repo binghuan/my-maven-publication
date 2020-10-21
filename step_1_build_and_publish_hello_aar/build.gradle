@@ -8,19 +8,23 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 android {
     compileSdkVersion 30
 }
+
 publishing {
     publications {
         mobile_lib(MavenPublication) {
             groupId 'com.bh.android'
-            version '1.0.11'
+            version '1.0.33'
             artifactId 'mobile_lib'
-            artifact("hello.aar")
+            artifact('hello-sources.jar') {
+                classifier 'sources'
+            }
+            artifact('hello.aar')
         }
     }
     repositories {

@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.bh.android:mobile_lib:1.0.7'
+    implementation 'com.bh.android:mobile_lib:1.0.33'
 
 }
